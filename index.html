@@ -4,14 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bio Page</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <h1>My name is Mbulu Benita</h1>
-        <p>I am Software Developer</p>
-        <img src="https://www.microsoft.com/en-us/industry/microsoft-in-business/wp-content/uploads/sites/28/2023/03/Low-Code-Organic-Image-Only-1200x630_v1-1024x538.webp" alt="">
+    <!-- This is the Container Section -->
+    <div id="container">
+        <header>
+            <h1>Student Bio</h1>
+        </header>
+
+        <!-- This is the H3 Bio section -->
+        <Section id="h3-bio">
+            <h3>Mbulu Benita</h3>
+            <h3 id="contactinfo">Contact Info</h3>
+        </Section>
+
+        <!-- This is the Bio content Section -->
+        <section id="bio-content">
+
+            <!-- This is the Main Bio section -->
+            <section id="main-bio">
+                <img id="image-bio" src="Benita.jpg" alt="Benita's Picture">
+                <p>I am a Software Developer and a Product Designer, <br> I love singing and dancing. <br>I Design and
+                    develop virtually pleasing interfaces for websites.</p>
+            </section>
+
+            <!-- This is the Contact Bio section -->
+            <section id="contact-bio">
+                <ul>
+                    <li>Email: <a href="#">beniottabenita@gmail.com</a></li>
+                    <li>Github: <a href="https://github.com/mbulubenita">Mbulu Benita</a></li>
+                    <li>Portfolio: <a href="https://www.behance.net/beniottabenita_">Portfolio</a></li>
+                </ul>
+            </section>
+
+        </section>
+    </div>
 </body>
 
 </html>
