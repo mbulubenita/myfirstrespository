@@ -6,7 +6,11 @@
 </head>
 
 <body>
-    <form>
+    <h1>Kindly fill out this form.</h1>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="apikey" value="919d8849-4f89-40fd-a68d-eacfcd3ad47c">
+
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
         <label for="email">Email:</label>
@@ -14,6 +18,9 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message"></textarea><br><br>
         <input type="submit" value="Send">
+
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+        
     </form>
 </body>
 
